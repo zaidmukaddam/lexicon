@@ -9,6 +9,7 @@ import ReactLoading from "react-loading";
 import SegmentedControl from "@/components/SegmentedControl";
 import Rewrite from "../public/rewrite.svg";
 import toast, { Toaster } from "react-hot-toast";
+import Script from "next/script";
 
 const poppins = Poppins({
   weight: ["400", "700"],
@@ -94,6 +95,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        <Script async src="https://cdn.splitbee.io/sb.js" />
       </Head>
       <main>
         <div className="App">
