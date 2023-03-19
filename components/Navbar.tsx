@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <Image alt="Logo" src={logoIG} />
-      <a target={"_blank"} href="https://github.com/zaidmukaddm/lexicon">
+      <a target={"_blank"} href="https://github.com/zaidmukaddam/lexicon">
         <Image alt="Github" src={github} />
         <span className="sm:hidden">Star on Github</span>
       </a>
